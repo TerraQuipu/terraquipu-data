@@ -74,3 +74,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     extract_nasa_power(args.lat, args.lon, args.start, args.end, args.out)
+
