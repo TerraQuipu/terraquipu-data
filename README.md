@@ -71,3 +71,4 @@ pip install requests pandas numpy geopandas matplotlib jupyter
 # 4. Probar el motor de scoring multicriterio
 python scoring_engine.py
 ```
+

@@ -77,3 +77,4 @@ if __name__ == "__main__":
     for crop in matrix["crops"]:
         res = calculate_suitability(crop, sample_diagnosis, previous_crop_id="papa_nativa")
         print(f"- {res['common_name']}: Score {res['suitability_score']}/100 (Balance N: {res['nitrogen_balance_kg_ha']} kg/ha)")
+
